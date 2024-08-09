@@ -6,6 +6,21 @@ Simple Flask app to test live reload
 
 This project will test various configurations for running a Flask app in debug mode. Check other branches for other approaches.
 
+### Installing the App
+
+To get the server set up on your local system, use the following commands after cloning the repo
+
+```
+# create a virtual environment
+python3 -m venv venv
+
+# activate the virtual environment
+source venv/bin/activate
+
+# install the dependencies
+pip install -r requirements.txt
+```
+
 ### Running the App
 
 To run the app in debug mode, use the following command
